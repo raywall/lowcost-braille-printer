@@ -42,6 +42,9 @@
 *.idb
 *.pdb
 
+# Project build output
+driver/bin/
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd

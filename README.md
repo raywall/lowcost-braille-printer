@@ -1,5 +1,11 @@
 # BraillePrinter
-Firmware e modelos 3D da impressora braille de baixo custo baseada no Arduino Mega 
+Firmware, modelos 3D e servidor local de impressão da impressora braille de baixo custo baseada no Arduino Mega.
+
+## Estrutura
+
+- `firmware/`: firmware Arduino original.
+- `driver/`: Braille Print Server local via IPP.
+- `Modelos3D.zip`: modelos 3D da impressora.
 
 Esta é a versão original da firmware para a impressora braille de baixo custo desenvolvida em C, para atuar com microcontroladores 
 ATMega 2560, construída para no meu TCC de conclusão de curso em engenharia de computação da UNIFEV em 2018.
