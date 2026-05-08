@@ -1,0 +1,107 @@
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.exe.config
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.exe
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.pdb
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csprojResolveAssemblyReference.cache
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Form1.resources
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Properties.Resources.resources
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.GenerateResource.Cache
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CoreCompileInputs.cache
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.exe
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.pdb
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar.Design.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar2.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.Design.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar.Design.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar2.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.Design.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Fonts\Braille.ttf
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CopyComplete
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.dll
+F:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.pdb
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar.Design.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar2.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.Design.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Fonts\Braille.ttf
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.exe.config
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.exe
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Printer Text Editor.pdb
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar.Design.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar2.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.Design.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.pdb
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csprojAssemblyReference.cache
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Properties.Resources.resources
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.GenerateResource.cache
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CoreCompileInputs.cache
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CopyComplete
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.exe
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.pdb
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\ICSharpCode.TextEditor.dll
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Controles.ComandoManual.resources
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.ControleForm.resources
+E:\TCC\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.EditorForm.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Fonts\Braille.ttf
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\ICSharpCode.TextEditor.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\Braille Translator.pdb
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csprojAssemblyReference.cache
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.ControleForm.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Controles.ComandoManual.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.EditorForm.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Properties.Resources.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.SplashScreen.resources
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.GenerateResource.cache
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CoreCompileInputs.cache
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CopyComplete
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.config
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\bin\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Printer Text Editor\Braille Printer Text Editor\obj\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.config
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Braille Translator.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\ICSharpCode.TextEditor.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Braille Translator.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csprojAssemblyReference.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.ControleForm.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Controles.ComandoManual.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.EditorForm.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Properties.Resources.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.SplashScreen.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.GenerateResource.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CoreCompileInputs.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille Printer Text Editor.csproj.CopyComplete
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Fonts\Braille.ttf

@@ -16,7 +16,7 @@
 // 0 - Texto normal para exibição na tela
 // 1 - Texto invertido para impressao */
 #define INT_PLOTAR_INVERTIDO 0
-#define INT_PLOTAR_TFT       0
+#define INT_PLOTAR_TFT       1
 #define INT_EXIBIR_LITERAL   0
 
 // Definicoes de procedimentos de impressão

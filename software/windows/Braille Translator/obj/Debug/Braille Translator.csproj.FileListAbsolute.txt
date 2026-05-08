@@ -1,0 +1,23 @@
+F:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.csprojResolveAssemblyReference.cache
+F:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.csproj.CoreCompileInputs.cache
+F:\TCC\Software\Braille Translator\bin\Debug\Braille Translator.dll
+F:\TCC\Software\Braille Translator\bin\Debug\Braille Translator.pdb
+F:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.dll
+F:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.pdb
+E:\TCC\Software\Braille Translator\bin\Debug\Braille Translator.dll
+E:\TCC\Software\Braille Translator\bin\Debug\Braille Translator.pdb
+E:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.csprojAssemblyReference.cache
+E:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.csproj.CoreCompileInputs.cache
+E:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.dll
+E:\TCC\Software\Braille Translator\obj\Debug\Braille Translator.pdb
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Translator\bin\Debug\Braille Translator.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Translator\bin\Debug\Braille Translator.pdb
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.csproj.CoreCompileInputs.cache
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.dll
+G:\Universidade\Projetos\Impressora Braille de baixo custo com Arduino\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.pdb
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\bin\Debug\Braille Translator.dll
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\bin\Debug\Braille Translator.pdb
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.csprojAssemblyReference.cache
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.csproj.CoreCompileInputs.cache
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.dll
+E:\Universidade\Projetos\Impressora Braille\Projeto\Software\Braille Translator\obj\Debug\Braille Translator.pdb

@@ -1,0 +1,30 @@
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Library\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.config
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Braille Translator.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.DotNetBar2.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.Design.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\DevComponents.Instrumentation.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\ICSharpCode.TextEditor.dll
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Braille Translator.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.ControleForm.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Controles.ComandoManual.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.EditorForm.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.Properties.Resources.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\Braille_Printer_Text_Editor.SplashScreen.resources
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.csproj.GenerateResource.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.csproj.CoreCompileInputs.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe.manifest
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.application
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.csproj.CopyComplete
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.exe
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.pdb
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\obj\Debug\BraillePrinter.csprojAssemblyReference.cache
+G:\Universidade\Projetos\Impressora Braille\Projeto\Software\BraillePrinter\Braille Printer Text Editor\bin\Debug\Fonts\Braille.ttf
