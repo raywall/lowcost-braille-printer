@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 permissions:
@@ -17,11 +17,11 @@ jobs:
       fail-fast: true
       matrix:
         include:
-          - { name: linux-amd64,   goos: linux,   goarch: amd64 }
-          - { name: linux-arm64,   goos: linux,   goarch: arm64 }
-          - { name: macos-amd64,   goos: darwin,  goarch: amd64 }
-          - { name: macos-arm64,   goos: darwin,  goarch: arm64 }
-          - { name: windows-amd64, goos: windows, goarch: amd64, ext: .exe }
+          - { name: linux-amd64,   os: linux,   goos: linux,   goarch: amd64, ext: "" }
+          - { name: linux-arm64,   os: linux,   goos: linux,   goarch: arm64, ext: "" }
+          - { name: macos-amd64,   os: macos,   goos: darwin,  goarch: amd64, ext: "" }
+          - { name: macos-arm64,   os: macos,   goos: darwin,  goarch: arm64, ext: "" }
+          - { name: windows-amd64, os: windows, goos: windows, goarch: amd64, ext: .exe }
 
     steps:
       - uses: actions/checkout@v4
@@ -38,23 +38,24 @@ jobs:
           CGO_ENABLED: "0"
         run: |
           mkdir -p bin
-          go build -ldflags="-s -w" -o "bin/braille-print-server${{ matrix.ext || '' }}" .
+          go build -ldflags="-s -w" -o "bin/braille-print-server${{ matrix.ext }}" .
 
-      - name: Package
+      - name: Prepare driver files
         run: |
           pkg="braille-printer-driver-${{ matrix.name }}"
           mkdir -p "dist/$pkg"
-          cp "driver/bin/braille-print-server${{ matrix.ext || '' }}" "dist/$pkg/"
+          cp "driver/bin/braille-print-server${{ matrix.ext }}" "dist/$pkg/"
+          cp README.md DRIVER.md "dist/$pkg/"
+          cp driver/README.md "dist/$pkg/DRIVER-USAGE.md"
           cp driver/packaging/macos/braille-printer.ppd "dist/$pkg/"
           if [[ "${{ matrix.goos }}" == "darwin" ]]; then
             cp driver/packaging/macos/com.brailleprinter.server.plist "dist/$pkg/"
           fi
-          cd dist && zip -r "$pkg.zip" "$pkg/"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: driver-${{ matrix.name }}
-          path: dist/braille-printer-driver-${{ matrix.name }}.zip
+          name: driver-files-${{ matrix.name }}
+          path: dist/braille-printer-driver-${{ matrix.name }}/
           if-no-files-found: error
 
   release:
@@ -75,7 +76,7 @@ jobs:
       - name: Abort if tag already exists
         run: |
           if git ls-remote --tags origin "refs/tags/${{ steps.ver.outputs.tag }}" | grep -q "${{ steps.ver.outputs.tag }}"; then
-            echo "::error::Tag ${{ steps.ver.outputs.tag }} already exists. Bump VERSION before merging to master."
+            echo "::error::Tag ${{ steps.ver.outputs.tag }} already exists. Bump VERSION before merging to main."
             exit 1
           fi
 
@@ -85,25 +86,42 @@ jobs:
 
       - name: Prepare release assets
         run: |
-          mkdir -p release
+          set -euo pipefail
+          mkdir -p release release-drivers
 
-          # Collect all driver packages
-          find artifacts/ -name "*.zip" -exec mv {} release/ \;
-
-          # Firmware package
+          # Firmware package, also published as an isolated asset.
           zip -r release/braille-printer-firmware.zip firmware/
 
-          # 3D models (rename existing zip)
+          # 3D models, also published as an isolated asset.
           cp Modelos3D.zip release/braille-printer-modelos3d.zip
 
-          # Complete bundle (drivers + firmware + modelos3d + TCC)
+          # Driver packages grouped by operating system for end-user downloads.
+          for os in linux macos windows; do
+            mkdir -p "release-drivers/braille-printer-driver-$os"
+          done
+
+          for artifact in artifacts/driver-files-*; do
+            name="$(basename "$artifact")"
+            platform="${name#driver-files-}"
+            os="${platform%%-*}"
+            mkdir -p "release-drivers/braille-printer-driver-$os/braille-printer-driver-$platform"
+            cp -R "$artifact/." "release-drivers/braille-printer-driver-$os/braille-printer-driver-$platform/"
+          done
+
+          for os in linux macos windows; do
+            (cd release-drivers && zip -r "../release/braille-printer-driver-$os.zip" "braille-printer-driver-$os")
+          done
+
+          # Complete bundle containing the downloadable packages plus the TCC PDF.
           VERSION="${{ steps.ver.outputs.tag }}"
           bundle="braille-printer-${VERSION}"
           mkdir -p "$bundle/drivers"
-          cp -r firmware "$bundle/"
+          cp release/braille-printer-firmware.zip "$bundle/"
           cp Modelos3D.zip "$bundle/modelos3d.zip"
           cp TCC-UNIFEV-2018.pdf "$bundle/"
-          cp release/braille-printer-driver-*.zip "$bundle/drivers/"
+          cp release/braille-printer-driver-linux.zip "$bundle/drivers/"
+          cp release/braille-printer-driver-macos.zip "$bundle/drivers/"
+          cp release/braille-printer-driver-windows.zip "$bundle/drivers/"
           zip -r "release/${bundle}.zip" "$bundle/"
 
       - name: Create release
