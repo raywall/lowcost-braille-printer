@@ -16,7 +16,6 @@ import (
 	"runtime"
 	"strings"
 	"sync"
-	"syscall"
 	"time"
 	"unicode/utf16"
 )
@@ -413,7 +412,7 @@ func configureSerial(device string) error {
 }
 
 func writeSerialMessage(f *os.File, message []byte) error {
-	if err := syscall.SetNonblock(int(f.Fd()), false); err != nil {
+	if err := setNonblocking(f, false); err != nil {
 		log.Printf("serial blocking-mode warning: %v", err)
 	}
 
@@ -431,7 +430,7 @@ func writeSerialMessage(f *os.File, message []byte) error {
 }
 
 func waitSerialAck(f *os.File, timeout time.Duration) error {
-	if err := syscall.SetNonblock(int(f.Fd()), true); err != nil {
+	if err := setNonblocking(f, true); err != nil {
 		return err
 	}
 
@@ -447,7 +446,7 @@ func waitSerialAck(f *os.File, timeout time.Duration) error {
 				return nil
 			}
 		}
-		if err != nil && !errors.Is(err, syscall.EAGAIN) && !errors.Is(err, syscall.EWOULDBLOCK) {
+		if err != nil && !errors.Is(err, errAgain) && !errors.Is(err, errWouldBlock) {
 			return err
 		}
 		time.Sleep(serialAckGap)

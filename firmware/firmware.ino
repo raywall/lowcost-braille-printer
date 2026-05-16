@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #define keyPad 0
-#define lineSize 28;
+#define lineSize 28
 
 void restartpointers();
 void insertspace();
@@ -42,6 +42,13 @@ void loop()
     }
 
     restartpointers();
+
+    bytenode *cur = byteArrayTest->next;
+    while (cur != NULL) {
+      bytenode *nxt = cur->next;
+      free(cur);
+      cur = nxt;
+    }
     free(byteArrayTest);
   }
 }

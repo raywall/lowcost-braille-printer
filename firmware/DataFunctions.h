@@ -64,7 +64,7 @@ uint8_t getbit(byte data, int pos)
 }
 
 int datatype(byte data) {
-  if (getbit(data, 7) == 1 & getbit(data, 6) == 1)
+  if (getbit(data, 7) == 1 && getbit(data, 6) == 1)
     return BreakLine;
 
   if (getbit(data, 7) == 0 & getbit(data, 6) == 0)

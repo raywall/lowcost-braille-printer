@@ -191,8 +191,11 @@ int subirEixoZ(int altura) {
 int imprimirLinha(node *ln, int reverso)  {
   node *tmp = ln;
 
-  if (reverso == 0) inicioPagina();
-  reverso == 0 ? inicioPagina() : voltarColuna(1);
+  if (reverso == 0) {
+    inicioPagina();
+  } else {
+    voltarColuna(1);
+  }
   
   while (tmp != NULL) {
     if (tmp->data == 1) {
@@ -203,7 +206,7 @@ int imprimirLinha(node *ln, int reverso)  {
     } else {
       int colunas = 0;
 
-      while (tmp->data == 0 & tmp != NULL) {
+      while (tmp != NULL && tmp->data == 0) {
         colunas += 1;
         tmp = tmp->next;
       }

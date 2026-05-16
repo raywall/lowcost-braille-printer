@@ -1,0 +1,116 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-driver:
+    name: Build driver / ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        include:
+          - { name: linux-amd64,   goos: linux,   goarch: amd64 }
+          - { name: linux-arm64,   goos: linux,   goarch: arm64 }
+          - { name: macos-amd64,   goos: darwin,  goarch: amd64 }
+          - { name: macos-arm64,   goos: darwin,  goarch: arm64 }
+          - { name: windows-amd64, goos: windows, goarch: amd64, ext: .exe }
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: driver/go.mod
+
+      - name: Build
+        working-directory: driver
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: "0"
+        run: |
+          mkdir -p bin
+          go build -ldflags="-s -w" -o "bin/braille-print-server${{ matrix.ext || '' }}" .
+
+      - name: Package
+        run: |
+          pkg="braille-printer-driver-${{ matrix.name }}"
+          mkdir -p "dist/$pkg"
+          cp "driver/bin/braille-print-server${{ matrix.ext || '' }}" "dist/$pkg/"
+          cp driver/packaging/macos/braille-printer.ppd "dist/$pkg/"
+          if [[ "${{ matrix.goos }}" == "darwin" ]]; then
+            cp driver/packaging/macos/com.brailleprinter.server.plist "dist/$pkg/"
+          fi
+          cd dist && zip -r "$pkg.zip" "$pkg/"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: driver-${{ matrix.name }}
+          path: dist/braille-printer-driver-${{ matrix.name }}.zip
+          if-no-files-found: error
+
+  release:
+    name: Create Release
+    needs: build-driver
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version
+        id: ver
+        run: |
+          VERSION=$(cat VERSION)
+          echo "tag=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "name=Braille Printer $VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Abort if tag already exists
+        run: |
+          if git ls-remote --tags origin "refs/tags/${{ steps.ver.outputs.tag }}" | grep -q "${{ steps.ver.outputs.tag }}"; then
+            echo "::error::Tag ${{ steps.ver.outputs.tag }} already exists. Bump VERSION before merging to main."
+            exit 1
+          fi
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Prepare release assets
+        run: |
+          mkdir -p release
+
+          # Collect all driver packages
+          find artifacts/ -name "*.zip" -exec mv {} release/ \;
+
+          # Firmware package
+          zip -r release/braille-printer-firmware.zip firmware/
+
+          # 3D models (rename existing zip)
+          cp Modelos3D.zip release/braille-printer-modelos3d.zip
+
+          # Complete bundle (drivers + firmware + modelos3d + TCC)
+          VERSION="${{ steps.ver.outputs.tag }}"
+          bundle="braille-printer-${VERSION}"
+          mkdir -p "$bundle/drivers"
+          cp -r firmware "$bundle/"
+          cp Modelos3D.zip "$bundle/modelos3d.zip"
+          cp TCC-UNIFEV-2018.pdf "$bundle/"
+          cp release/braille-printer-driver-*.zip "$bundle/drivers/"
+          zip -r "release/${bundle}.zip" "$bundle/"
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.ver.outputs.tag }}" \
+            --title "${{ steps.ver.outputs.name }}" \
+            --generate-notes \
+            release/*.zip \
+            TCC-UNIFEV-2018.pdf
