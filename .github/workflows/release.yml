@@ -3,7 +3,8 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - master
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -74,7 +75,7 @@ jobs:
       - name: Abort if tag already exists
         run: |
           if git ls-remote --tags origin "refs/tags/${{ steps.ver.outputs.tag }}" | grep -q "${{ steps.ver.outputs.tag }}"; then
-            echo "::error::Tag ${{ steps.ver.outputs.tag }} already exists. Bump VERSION before merging to main."
+            echo "::error::Tag ${{ steps.ver.outputs.tag }} already exists. Bump VERSION before merging to master."
             exit 1
           fi
 
