@@ -28,7 +28,7 @@ jobs:
 
       - uses: actions/setup-go@v5
         with:
-          go-version-file: driver/go.mod
+          go-version-file: driver/go.mod 
 
       - name: Build
         working-directory: driver
